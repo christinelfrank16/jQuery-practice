@@ -1,0 +1,12 @@
+#walrus-showing p, #walrus-showing img {
+    display: none;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
