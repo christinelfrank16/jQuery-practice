@@ -22,3 +22,8 @@
 .clickable:hover, .clickableTrivia:hover, .answer:hover {
   text-decoration: underline;
 }
+
+.dark {
+  background-color: black;
+  color: white;
+}

@@ -5,7 +5,6 @@ $(document).ready(function() {
     $("#walrus-showing img").fadeToggle();
     $("#walrus-hidden p").toggle();
     $(".trivia").toggle();
-
   });
 
   $(".clickableTrivia").click(function() {
@@ -13,10 +12,12 @@ $(document).ready(function() {
   });
   $(".answer").click(function(){
     $(".showAnswer").fadeToggle();
-
   });
 
-
+  $("button").click(function(){
+    $("body").toggleClass("dark");
+    // Not necessary because we are using toggleCLass   $("body").removeClass("dark");
+});
 
 
 });
