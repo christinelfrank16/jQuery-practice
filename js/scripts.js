@@ -4,6 +4,19 @@ $(document).ready(function() {
     $("#walrus-showing p").toggle();
     $("#walrus-showing img").fadeToggle();
     $("#walrus-hidden p").toggle();
-    // $("#walrus-hidden img").fadeToggle();
+    $(".trivia").toggle();
+
   });
+
+  $(".clickableTrivia").click(function() {
+    $("#triviaOne").toggle();
+  });
+  $(".answer").click(function(){
+    $(".showAnswer").fadeToggle();
+
+  });
+
+
+
+
 });

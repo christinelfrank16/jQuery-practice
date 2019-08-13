@@ -2,11 +2,23 @@
     display: none;
 }
 
-.clickable {
+.trivia {
+  display: none;
+}
+
+#triviaOne {
+  display: none;
+}
+
+.showAnswer {
+  display: none;
+}
+
+.clickable, .clickableTrivia, .answer {
   cursor: pointer;
   color: #0088cc;
 }
 
-.clickable:hover {
+.clickable:hover, .clickableTrivia:hover, .answer:hover {
   text-decoration: underline;
 }
