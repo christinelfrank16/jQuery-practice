@@ -18,6 +18,9 @@ $(document).ready(function() {
     $("body").toggleClass("dark");
     // Not necessary because we are using toggleCLass   $("body").removeClass("dark");
 });
+  $("#border").click(function(){
+    $("h1").toggleClass("add-border");
 
+  });
 
 });

@@ -14,16 +14,22 @@
   display: none;
 }
 
-.clickable, .clickableTrivia, .answer {
+.clickable, .clickableTrivia, .answer, #border {
   cursor: pointer;
   color: #0088cc;
 }
 
-.clickable:hover, .clickableTrivia:hover, .answer:hover {
+.clickable:hover, .clickableTrivia:hover, .answer:hover, #border:hover {
   text-decoration: underline;
 }
 
 .dark {
   background-color: black;
   color: white;
+}
+
+.add-border {
+  border: 2px solid orange;
+  border-radius: 5px;
+  background-color: beige;
 }
